@@ -48,7 +48,7 @@ export default function RootLayout({
                   </li>
                   <li>
                     <Button variant="link" disabled asChild>
-                      <Link href="/resume.pdf" rel="noopener noreferrer" target="_blank" className="hover:underline">Resume <Download className="m-2" size={20} /> </Link>
+                      <Link href="/Resume.pdf" rel="noopener noreferrer" target="_blank" className="hover:underline">Resume <Download className="m-2" size={20} /> </Link>
                     </Button>
                   </li>
                   <li>
