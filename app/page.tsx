@@ -11,9 +11,7 @@ export default function Home() {
       animateTo={{ from: '#6DEDD0', to: '#7AE23A' }}
       animateDuration={2000}
     >
-      Welcome to my piece of the internet.
-      <br />
-      I am still working on this site.
+      Home Page
     </FancyText>
       <RetroGrid />
     </div>
