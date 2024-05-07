@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/theme-btn";
-import { Github, Mail, Download } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
@@ -48,7 +48,7 @@ export default function RootLayout({
                   </li>
                   <li>
                     <Button variant="link" disabled asChild>
-                      <Link href="/Resume.pdf" rel="noopener noreferrer" target="_blank" className="hover:underline">Resume <Download className="m-2" size={20} /> </Link>
+                      <Link href="/Resume.pdf" rel="noopener noreferrer" target="_blank" className="hover:underline">Resume</Link>
                     </Button>
                   </li>
                   <li>
