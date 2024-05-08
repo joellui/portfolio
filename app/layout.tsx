@@ -31,14 +31,14 @@ export default function RootLayout({
 
 
 
-            <footer className="fixed inset-x-0 bg-slate-100 rounded-lg shadow m-4 dark:bg-gray-800 bottom-0 opacity-50 hover:opacity-95 ease-in-out duration-300 ">
+            <footer className="md:fixed inset-x-0 bg-slate-100 rounded-lg shadow m-4 dark:bg-gray-800 bottom-0 opacity-50 hover:opacity-95 ease-in-out duration-300 ">
               <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Joel Louis Menachery All Rights Reserved.
                 </span>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-                <li>
-                  <Button variant="link" asChild>
-                    <Link href="/" className="hover:underline">Home</Link>
+                  <li>
+                    <Button variant="link" asChild>
+                      <Link href="/" className="hover:underline">Home</Link>
                     </Button>
                   </li>
                   <li>
@@ -52,17 +52,17 @@ export default function RootLayout({
                     </Button>
                   </li>
                   <li>
-                    <Button variant="link" className="" asChild>
-                    <Link href="https://github.com/joellui" className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                      <Github />
-                    </Link>
+                    <Button variant="link" asChild>
+                      <Link href="https://github.com/joellui" className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                        <Github />
+                      </Link>
                     </Button>
                   </li>
                   <li>
-                    <Button variant="link" asChild>
-                    <Link href="mailto:joellouis2000@gmail.com?subject=Feedback" type="email" className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                      <Mail />
-                    </Link>
+                    <Button variant="link" asChild className="hidden md:block">
+                      <Link href="mailto:joellouis2000@gmail.com?subject=Feedback" type="email" className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                        <Mail />
+                      </Link>
                     </Button>
                   </li>
                   <li>
