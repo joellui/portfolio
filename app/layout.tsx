@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/theme-btn";
-import { Github, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
@@ -29,6 +29,8 @@ export default function RootLayout({
 
             {children}
 
+            <div className="md:inset-x-0 md:h-32" >
+            </div>
 
 
             <footer className="md:fixed inset-x-0 bg-slate-100 rounded-lg shadow m-4 dark:bg-gray-800 bottom-0 opacity-50 hover:opacity-95 ease-in-out duration-300 ">
@@ -53,7 +55,7 @@ export default function RootLayout({
                   </li>
                   <li>
                     <Button variant="link" asChild>
-                      <Link href="https://github.com/joellui" className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                      <Link href="https://github.com/joellui" className="text-sm font-medium text-gray-500 dark:text-gray-400 hover: ">
                         <Github />
                       </Link>
                     </Button>
@@ -62,6 +64,13 @@ export default function RootLayout({
                     <Button variant="link" asChild className="hidden md:block">
                       <Link href="mailto:joellouis2000@gmail.com?subject=Feedback" type="email" className="text-sm font-medium text-gray-500 dark:text-gray-400">
                         <Mail />
+                      </Link>
+                    </Button>
+                  </li>
+                  <li>
+                    <Button variant="link" asChild>
+                      <Link href="https://www.linkedin.com/in/joelluim/" className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                        <Linkedin />
                       </Link>
                     </Button>
                   </li>
