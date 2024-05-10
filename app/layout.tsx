@@ -55,22 +55,22 @@ export default function RootLayout({
                   </li>
                   <li>
                     <Button variant="link" asChild>
-                      <Link href="https://github.com/joellui" className="text-sm font-medium text-gray-500 dark:text-gray-400 hover: ">
-                        <Github />
+                      <Link href="https://github.com/joellui" className="text-sm font-medium text-gray-500 dark:text-gray-400 ">
+                        <Github className="dark:hover:stroke-blue-300 hover:stroke-blue-600" />
                       </Link>
                     </Button>
                   </li>
                   <li>
                     <Button variant="link" asChild className="hidden md:block">
                       <Link href="mailto:joellouis2000@gmail.com?subject=Feedback" type="email" className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                        <Mail />
+                        <Mail className="dark:hover:stroke-blue-300 hover:stroke-blue-600" />
                       </Link>
                     </Button>
                   </li>
                   <li>
                     <Button variant="link" asChild>
                       <Link href="https://www.linkedin.com/in/joelluim/" className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                        <Linkedin />
+                        <Linkedin className="dark:hover:stroke-blue-300 hover:stroke-blue-600" />
                       </Link>
                     </Button>
                   </li>
