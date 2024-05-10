@@ -39,7 +39,6 @@ const Skeleton = () => (
 const Description1 = () => (
   <div className="block">
     <p>Web application for user to upload pdf file and the content will be extracted and stored using Tesseract OCR</p>
-    <div> ---- </div>
 
     <img className="inline-block m-1" src="https://img.shields.io/badge/Django-%23092E20?style=for-the-badge&logo=django&logoColor=%23092E20&labelColor=black" alt="django"/>
     <img className="inline-block m-1" src="https://img.shields.io/badge/html5-%23E34F26?style=for-the-badge&logo=html5&logoColor=%23E34F26&labelColor=black" alt="html5"/>
@@ -49,7 +48,6 @@ const Description1 = () => (
 const Description2 = () => (
   <div className="block">
     <p>Streaming application for Android reached 100+</p>
-    <div> ---- </div>
 
     <img className="inline-block m-1" src="https://img.shields.io/badge/kotlin-%237F52FF?style=for-the-badge&logo=kotlin&logoColor=%237F52FF&labelColor=black" alt="Kotlin"/>
     <img className="inline-block m-1" src="https://img.shields.io/badge/git-%23F05032?style=for-the-badge&logo=git&logoColor=%23F05032&labelColor=black" alt="git"/>
@@ -59,7 +57,6 @@ const Description2 = () => (
 const Description3 = () => (
   <div className="block">
     <p>Android Game using Unity with 100+ downloads</p>
-    <div> ---- </div>
 
     <img className="inline-block m-1" src="https://img.shields.io/badge/csharp-%23512BD4?style=for-the-badge&logo=csharp&logoColor=%23512BD4&labelColor=black" alt="C#" />
     <img className="inline-block m-1" src="https://img.shields.io/badge/git-%23F05032?style=for-the-badge&logo=git&logoColor=%23F05032&labelColor=black" alt="git"/>
@@ -70,7 +67,7 @@ const Description3 = () => (
 const Description4 = () => (
   <div className="block">
     <p>Published paper on Brain Tumor Detection using MRI scans in IEEE Xplore</p>
-    <div> ---- </div>
+    
     <img className="inline-block m-1" src="https://img.shields.io/badge/python-%233776AB?style=for-the-badge&logo=python&logoColor=%233776AB&labelColor=black" alt="Python"/>
     <img className="inline-block m-1" src="https://img.shields.io/badge/tensorflow-%23FF6F00?style=for-the-badge&logo=tensorflow&logoColor=%23FF6F00&labelColor=black" alt="Tensor Flow"/>
     <img className="inline-block m-1" src="https://img.shields.io/badge/git-%23F05032?style=for-the-badge&logo=git&logoColor=%23F05032&labelColor=black" alt="git"/>
@@ -80,7 +77,6 @@ const Description4 = () => (
 const Description5 = () => (
   <div className="block">
     <p>Modifying encrypted data using microsoft SEAL</p>
-    <div> ---- </div>
     <img className="inline-block m-1" src="https://img.shields.io/badge/C%2B%2B-%2300599C?style=for-the-badge&logo=cplusplus&logoColor=%2300599C&labelColor=black" alt="C++" />
     </div>
 )
