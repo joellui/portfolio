@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "Company_name": "Carelon",
+        "Company_logo": "/Company_logo/Carelon.svg",
+        "Company_location": "Bangalore, India",
+        "Company_website": "https://www.carelon.com/",
+        "Company_description": [
+            "Architected robust APIs with Express.js and Flask Restful frameworks, reducing manual intervention by 30%.",
+            "Implemented Nodemailer for automated email notifications, achieving a 20% increase in API response time.",
+            "Integrated Google’s Perspective API, reducing moderation time by 40% and enhancing platform security.",
+            "Kafka messaging system, improving real-time data processing capabilities.",
+            "Closed 15 pull requests, contributing to overall system performance and funßctionality improvements."
+        ],
+        "Job_title": "Software Developer",
+        "Job_type": "Full-time",
+        "Job_Start_date": "2022, Jul",
+        "Job_End_date": "2022, Nov"
+    },
+    {
+        "id": 2,
+        "Company_name": "Tata Communications",
+        "Company_logo": "/Company_logo/tataCommunication.svg",
+        "Company_location": "Mumbai, India",
+        "Company_website": "https://www.tatacommunications.com/",
+        "Company_description": [
+            "Revamped the website UI built on Next.js, improving user experience and interface design.",
+            "Upgraded website authentication system from session-based to token-based using JWT tokens, enhancing security and user authentication processes."
+        ],
+        "Job_title": "Software Engineer",
+        "Job_type": "Internship",
+        "Job_Start_date": "2021, Mar",
+        "Job_End_date": "2021, Jun"
+
+    },
+    {
+        "id": 3,
+        "Company_name": "Prodevans Technologies",
+        "Company_logo": "/Company_logo/prodevans_logo.svg",
+        "Company_location": "Bangalore, India",
+        "Company_website": "https://www.prodevans.com/",
+        "Company_description": [
+            "Spearheaded a team of 4 developers in creating an ETL (Extract, Transform, Load) tool using Python and pandas.",
+            "Developed the tool to extract data from CSV files at specific intervals and automated transfer to an S3 bucket, enabling client access for download."
+        ],
+        "Job_title": "Software Developer",
+        "Job_type": "Internship",
+        "Job_Start_date": "2020, Mar",
+        "Job_End_date": "2020, Jul"
+    }
+]

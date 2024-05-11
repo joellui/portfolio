@@ -12,7 +12,7 @@ import {
 } from "@tabler/icons-react";
 import Image from "next/image";
 
-export function BentoGridDemo() {
+export function BentoGridProject() {
   return (
     <>
       <h2 className="mt-8 text-2xl font-bold">Explore My Projects</h2>
