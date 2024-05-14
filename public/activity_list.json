@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "Organisation": "IEEE",
+        "Artical_title": "Deep Learning for Image Classification",
+        "Artical_Summary": "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
+        "Artical_link": "https://www.ieee.org/",
+        "date_published": "2021, Oct"
+    },{
+        "id": 2,
+        "Organisation": "Medium",
+        "Artical_title": "Deep Learning for Image Classification",
+        "Artical_Summary": "Medium is an open platform where 170 million readers come to find insightful and dynamic thinking.",
+        "Artical_link": "https://medium.com/",
+        "date_published": "2021, Oct"
+    },{
+        "id": 3,
+        "Organisation": "Github",
+        "Artical_title": "Deep Learning for Image Classification",
+        "Artical_Summary": "Towards Data Science provides a platform for thousands of people to exchange ideas and to expand our understanding of data science.",
+        "Artical_link": null,
+        "date_published": "2021, Oct"
+    },{
+        "id": 4,
+        "Organisation": "Dev.to",
+        "Artical_title": "Deep Learning for Image Classification",
+        "Artical_Summary": "Towards Data Science provides a platform for thousands of people to exchange ideas and to expand our understanding of data science.",
+        "Artical_link": null,
+        "date_published": "2021, Oct"
+    }
+]

@@ -4,10 +4,11 @@ import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { BriefcaseBusiness, Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import Image from "next/image";
 import { BentoGridProject } from "@/components/project_list";
 import WorkExp from "@/components/work_exp";
+import { ActivityList } from "@/components/activity_exp";
 
 export default function Home() {
   const words = `Welcome to my digital playground, where creativity meets innovation. Dive into a world where pixels narrate stories and lines of code bring ideas to life. Explore my portfolio, a canvas filled with passion-driven projects and insightful reflections. Let's embark on a journey of inspiration and discovery together.`
@@ -21,7 +22,7 @@ export default function Home() {
           I am <span className="text-4xl font-bold">  Joel Louis</span>
         </h3>
 
-        <div className="grid md:grid-rows-1 md:grid-cols-2 grid-cols-1 grid-rows-2 gap-2 md:mt-10 ">
+        <div className="z-10 grid md:grid-rows-1 md:grid-cols-2 grid-cols-1 grid-rows-2 gap-2 md:mt-10 ">
           <div>
             <TextGenerateEffect words={words} className="font-mono text-justify" />
 
@@ -55,21 +56,21 @@ export default function Home() {
 
         <BentoGridProject />
 
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-8 w-full mt-9">
+        <div className="z-10 grid md:grid-cols-2 grid-cols-1 gap-8 w-full mt-9">
           <div className="m-3 p-4">
             <h3 className="text-2xl font-extrabold underline decoration-wavy underline-offset-2"> Activity</h3>
 
-            <p className="font-thin my-10"> I am working on this sections</p>
+            <ActivityList />
             
 
           </div>
-          <div className="p-5 pb-10 m-3 h-fit dark:bg-black dark:border-white/[0.2] bg-white border border-black/[0.2] rounded-lg">
+          <div className="z-10 p-5 pb-10 m-3 h-fit dark:bg-black dark:border-white/[0.2] bg-white border border-black/[0.2] rounded-lg">
             <WorkExp />
           </div>
         </div>
 
       </div>
-      <RetroGrid className="fixed inset-x-0 inset-y-0" />
+      <RetroGrid className="z-0 fixed inset-x-0 inset-y-0" />
     </>
   );
 }

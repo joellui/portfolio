@@ -33,7 +33,7 @@ export default function RootLayout({
             </div>
 
 
-            <footer className="md:fixed inset-x-0 bg-slate-100 rounded-lg shadow m-4 dark:bg-gray-800 bottom-0 opacity-70 hover:opacity-95 ease-in-out duration-300 ">
+            <footer className="z-50 md:fixed inset-x-0 bg-slate-100 rounded-lg shadow m-4 dark:bg-gray-800 bottom-0 opacity-70 hover:opacity-95 ease-in-out duration-300 ">
               <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Joel Louis Menachery All Rights Reserved.
                 </span>
