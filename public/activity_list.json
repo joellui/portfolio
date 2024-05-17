@@ -1,31 +1,58 @@
 [
     {
-        "id": 1,
-        "Organisation": "IEEE",
-        "Artical_title": "Deep Learning for Image Classification",
-        "Artical_Summary": "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
-        "Artical_link": "https://www.ieee.org/",
-        "date_published": "2021, Oct"
-    },{
         "id": 2,
-        "Organisation": "Medium",
-        "Artical_title": "Deep Learning for Image Classification",
-        "Artical_Summary": "Medium is an open platform where 170 million readers come to find insightful and dynamic thinking.",
-        "Artical_link": "https://medium.com/",
-        "date_published": "2021, Oct"
-    },{
+        "Organisation": "Prodevans",
+        "Artical_title": "Internship: ETL Tool Development",
+        "Artical_link": null,
+        "Artical_Summary": "Developed an ETL tool during my first internship at Prodevans. This project involved designing, implementing, and testing ETL processes crucial for data integration and data warehousing solutions.",
+        "date_published": "2020, Mar"
+    },
+    {
         "id": 3,
-        "Organisation": "Github",
-        "Artical_title": "Deep Learning for Image Classification",
-        "Artical_Summary": "Towards Data Science provides a platform for thousands of people to exchange ideas and to expand our understanding of data science.",
+        "Organisation": "Tata Communication",
+        "Artical_title": "Internship: Website Update with Angular",
         "Artical_link": null,
+        "Artical_Summary": "Updated the Tata Communication website, incorporating new features and enhancements using the Angular framework. This was my initial exposure to Angular, providing a solid foundation in modern web development practices.",
+        "date_published": "2021, Mar"
+    },
+    {
+        "id": 7,
+        "Organisation": "Android App Store",
+        "Artical_title": "Game Development with C# and Unity",
+        "Artical_link": null,
+        "Artical_Summary": "Developed multiple games using C# and Unity, later published on the Android App Store. These projects allowed me to explore game mechanics, graphics, and user interaction in a mobile environment.",
+        "date_published": "2021, May"
+    },
+    {
+        "id": 1,
+        "Organisation": "Christ University",
+        "Artical_title": "Web Development Team Member",
+        "Artical_link": null,
+        "Artical_Summary": "Served as a key member of the web development team at Christ University, tasked with updating and upgrading specific sections of the university's website. My responsibilities included redesigning user interfaces and enhancing site navigation and accessibility.",
         "date_published": "2021, Oct"
-    },{
+    },
+    {
+        "id": 6,
+        "Organisation": "Kitsu",
+        "Artical_title": "Open Source Developer for Kitsu Streaming App",
+        "Artical_link": null,
+        "Artical_Summary": "Led the development of Kitsu, an open-source streaming application for anime. This project involved using Kotlin to build a robust, scalable app that supports streaming and community interaction.",
+        "date_published": "2021, Nov"
+    },
+    {
         "id": 4,
-        "Organisation": "Dev.to",
-        "Artical_title": "Deep Learning for Image Classification",
-        "Artical_Summary": "Towards Data Science provides a platform for thousands of people to exchange ideas and to expand our understanding of data science.",
+        "Organisation": "Leagato Health Technology",
+        "Artical_title": "Associate Software Developer",
         "Artical_link": null,
-        "date_published": "2021, Oct"
+        "Artical_Summary": "Worked as an Associate Software Developer at Leagato Health Technology, focusing on backend architecture. Developed APIs and webhooks that facilitated data exchange and integration across various services within the healthcare sector.",
+        "date_published": "2022, Jun"
+    },
+    {
+        "id": 5,
+        "Organisation": "Trustle",
+        "Artical_title": "Software Developer for End-to-End Product",
+        "Artical_link": null,
+        "Artical_Summary": "Designed and implemented a complete end-to-end product at Trustle, a UK-based company. This role involved comprehensive development from initial concept through to deployment, focusing on creating scalable and efficient software solutions.",
+        "date_published": "2022, Dec"
     }
 ]

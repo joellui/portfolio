@@ -25,7 +25,7 @@ export function ActivityList() {
             }}
         >
 
-            {activityList.slice(-3).map((act: Activity, i: number, arr: Activity[]) => (
+            {activityList.map((act: Activity, i: number, arr: Activity[]) => (
                 <TimelineItem key={i} className="mt-2">
                     <TimelineOppositeContent className="text-sm opacity-50">
                         {act.date_published}

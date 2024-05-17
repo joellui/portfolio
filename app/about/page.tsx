@@ -10,7 +10,7 @@ import { ActivityList } from "@/components/activity_exp";
 export default function Home() {
   return (
     <div className="flex justify-center">
-      <div className="flex flex-col justify-center z-50 w-3/4 dark:bg-black dark:bg-opacity-80 bg-white border shadow bg-opacity-70 pt-5 mt-5 rounded-md">
+      <div className="flex flex-col justify-center z-50 md:w-3/4 w-11/12 dark:bg-black dark:bg-opacity-80 bg-white border shadow bg-opacity-70 pt-5 mt-5 rounded-md">
         <div className="z-20 containe  opacity-100 grid md:grid-rows-1 md:grid-cols-2 grid-cols-1 grid-rows-2 gap-2 p-7">
           <div className="pt-16">
             <h1 className="text-4xl font-extrabold">About me</h1>
