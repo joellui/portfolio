@@ -57,14 +57,14 @@ export default function Home() {
         <BentoGridProject />
 
         <div className="z-10 grid md:grid-cols-2 grid-cols-1 gap-8 w-full mt-9">
-          <div className="m-3 p-4">
+          <div className="md:m-3 md:p-4">
             <h3 className="text-2xl font-extrabold underline decoration-wavy underline-offset-2"> Activity</h3>
 
             <ActivityList toShow={-3} />
             
 
           </div>
-          <div className="z-10 p-5 pb-10 m-3 h-fit dark:bg-black dark:border-white/[0.2] bg-white border border-black/[0.2] rounded-lg">
+          <div className="z-10 p-5 pb-10 md:m-3 h-fit dark:bg-black dark:border-white/[0.2] bg-white border border-black/[0.2] rounded-lg">
             <WorkExp />
           </div>
         </div>

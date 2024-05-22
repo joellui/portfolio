@@ -39,7 +39,7 @@ export function ActivityList({toShow=0}) {
                         <div className="col-span-5">
                             <h5>{act.Artical_title}</h5>
                         </div>
-                        <div className="col-span-4 text-right text-sm opacity-50">
+                        <div className="col-span-3 text-right text-sm opacity-50">
                             <span>{act.Organisation}</span>
                         </div>
                         <div className="col-span-9 text-sm">
