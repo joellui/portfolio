@@ -14,8 +14,8 @@ export default function Home() {
   const words = `Welcome to my digital playground, where creativity meets innovation. Dive into a world where pixels narrate stories and lines of code bring ideas to life. Explore my portfolio, a canvas filled with passion-driven projects and insightful reflections. Let's embark on a journey of inspiration and discovery together.`
 
   return (
-    <>
-      <div className="container" >
+    <div className="flex justify-center">
+      <div className="flex flex-col justify-center z-50 md:w-3/4 w-11/12" >
         <h3 className="mt-5 text-3xl">
           Hello,
           <br />
@@ -57,7 +57,7 @@ export default function Home() {
         <BentoGridProject />
 
         <div className="z-10 grid md:grid-cols-2 grid-cols-1 gap-8 w-full mt-9">
-          <div className="md:m-3 md:p-4">
+          <div className="md:m-3 ">
             <h3 className="text-2xl font-extrabold underline decoration-wavy underline-offset-2"> Activity</h3>
 
             <ActivityList toShow={-3} />
@@ -71,6 +71,6 @@ export default function Home() {
 
       </div>
       <RetroGrid className="z-0 fixed inset-x-0 inset-y-0" />
-    </>
+    </div>
   );
 }
