@@ -15,7 +15,7 @@ interface Activity {
 }
 
 
-export function ActivityList() {
+export function ActivityList({toShow=0}) {
     return (
         <Timeline
             sx={{
@@ -25,7 +25,7 @@ export function ActivityList() {
             }}
         >
 
-            {activityList.map((act: Activity, i: number, arr: Activity[]) => (
+            {activityList.slice(toShow).map((act: Activity, i: number, arr: Activity[]) => (
                 <TimelineItem key={i} className="mt-2">
                     <TimelineOppositeContent className="text-sm opacity-50">
                         {act.date_published}
