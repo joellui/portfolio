@@ -4,6 +4,10 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/theme-btn";
 import { Github, Linkedin, Mail } from 'lucide-react';
+
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
@@ -18,7 +22,7 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body>
         <ThemeProvider
           attribute="class"
@@ -84,6 +88,8 @@ export default function RootLayout({
 
           </div>
         </ThemeProvider>
+        <Analytics/>
+        <SpeedInsights />
       </body>
     </html>
   );
