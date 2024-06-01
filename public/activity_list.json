@@ -1,46 +1,14 @@
 [
     {
-        "id": 2,
-        "Organisation": "Prodevans",
-        "Artical_title": "Internship: ETL Tool Development",
-        "Artical_link": null,
-        "Artical_Summary": "Developed an ETL tool during my first internship at Prodevans. This project involved designing, implementing, and testing ETL processes crucial for data integration and data warehousing solutions.",
-        "date_published": "2020, Mar"
-    },
-    {
-        "id": 3,
-        "Organisation": "Tata Communication",
-        "Artical_title": "Internship: Website Update with Angular",
-        "Artical_link": null,
-        "Artical_Summary": "Updated the Tata Communication website, incorporating new features and enhancements using the Angular framework. This was my initial exposure to Angular, providing a solid foundation in modern web development practices.",
-        "date_published": "2021, Mar"
-    },
-    {
         "id": 7,
-        "Organisation": "Android App Store",
-        "Artical_title": "Game Development with C# and Unity",
+        "Organisation": "Trustle",
+        "Artical_title": "Software Developer for End-to-End Product",
         "Artical_link": null,
-        "Artical_Summary": "Developed multiple games using C# and Unity, later published on the Android App Store. These projects allowed me to explore game mechanics, graphics, and user interaction in a mobile environment.",
-        "date_published": "2021, May"
-    },
-    {
-        "id": 1,
-        "Organisation": "Christ University",
-        "Artical_title": "Web Development Team Member",
-        "Artical_link": null,
-        "Artical_Summary": "Served as a key member of the web development team at Christ University, tasked with updating and upgrading specific sections of the university's website. My responsibilities included redesigning user interfaces and enhancing site navigation and accessibility.",
-        "date_published": "2021, Oct"
+        "Artical_Summary": "Designed and implemented a complete end-to-end product at Trustle, a UK-based company. This role involved comprehensive development from initial concept through to deployment, focusing on creating scalable and efficient software solutions.",
+        "date_published": "2022, Dec"
     },
     {
         "id": 6,
-        "Organisation": "Kitsu",
-        "Artical_title": "Open Source Developer for Kitsu Streaming App",
-        "Artical_link": null,
-        "Artical_Summary": "Led the development of Kitsu, an open-source streaming application for anime. This project involved using Kotlin to build a robust, scalable app that supports streaming and community interaction.",
-        "date_published": "2021, Nov"
-    },
-    {
-        "id": 4,
         "Organisation": "Leagato Health Technology",
         "Artical_title": "Associate Software Developer",
         "Artical_link": null,
@@ -49,10 +17,42 @@
     },
     {
         "id": 5,
-        "Organisation": "Trustle",
-        "Artical_title": "Software Developer for End-to-End Product",
+        "Organisation": "Kitsu",
+        "Artical_title": "Open Source Developer for Kitsu Streaming App",
         "Artical_link": null,
-        "Artical_Summary": "Designed and implemented a complete end-to-end product at Trustle, a UK-based company. This role involved comprehensive development from initial concept through to deployment, focusing on creating scalable and efficient software solutions.",
-        "date_published": "2022, Dec"
+        "Artical_Summary": "Led the development of Kitsu, an open-source streaming application for anime. This project involved using Kotlin to build a robust, scalable app that supports streaming and community interaction.",
+        "date_published": "2021, Nov"
+    },
+    {
+        "id": 4,
+        "Organisation": "Christ University",
+        "Artical_title": "Web Development Team Member",
+        "Artical_link": null,
+        "Artical_Summary": "Served as a key member of the web development team at Christ University, tasked with updating and upgrading specific sections of the university's website. My responsibilities included redesigning user interfaces and enhancing site navigation and accessibility.",
+        "date_published": "2021, Oct"
+    },
+    {
+        "id": 3,
+        "Organisation": "Android App Store",
+        "Artical_title": "Game Development with C# and Unity",
+        "Artical_link": null,
+        "Artical_Summary": "Developed multiple games using C# and Unity, later published on the Android App Store. These projects allowed me to explore game mechanics, graphics, and user interaction in a mobile environment.",
+        "date_published": "2021, May"
+    },
+    {
+        "id": 2,
+        "Organisation": "Tata Communication",
+        "Artical_title": "Internship: Website Update with Angular",
+        "Artical_link": null,
+        "Artical_Summary": "Updated the Tata Communication website, incorporating new features and enhancements using the Angular framework. This was my initial exposure to Angular, providing a solid foundation in modern web development practices.",
+        "date_published": "2021, Mar"
+    },
+    {
+        "id": 1,
+        "Organisation": "Prodevans",
+        "Artical_title": "Internship: ETL Tool Development",
+        "Artical_link": null,
+        "Artical_Summary": "Developed an ETL tool during my first internship at Prodevans. This project involved designing, implementing, and testing ETL processes crucial for data integration and data warehousing solutions.",
+        "date_published": "2020, Mar"
     }
 ]
