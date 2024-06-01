@@ -26,7 +26,7 @@ export default function Home() {
           <div>
             <TextGenerateEffect words={words} className="font-mono text-justify" />
 
-            <div className="md:hidden mt-3">
+            <div className="md:hidden mt-3 flex flex-row">
               <Button variant="link" className="" asChild>
                 <Link href="https://github.com/joellui" className="text-sm font-medium text-gray-500 dark:text-gray-400">
                   <Github className="dark:hover:stroke-blue-300 hover:stroke-blue-600" />
@@ -42,6 +42,12 @@ export default function Home() {
               <Button variant="link" asChild>
                 <Link href="https://www.linkedin.com/in/joelluim/" className="text-sm font-medium text-gray-500 dark:text-gray-400">
                   <Linkedin className="dark:hover:stroke-blue-300 hover:stroke-blue-600" />
+                </Link>
+              </Button>
+
+              <Button variant="link" asChild>
+                <Link href="https://medium.com/@joellouis" className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="h-8 w-10 dark:hover:stroke-blue-300 hover:stroke-blue-600 dark:hover:fill-blue-300 hover:fill-blue-600 stroke-gray-500 dark:stroke-gray-400 fill-gray-500 dark:fill-gray-400" ><title>Medium</title><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" /></svg>
                 </Link>
               </Button>
             </div>
@@ -61,7 +67,7 @@ export default function Home() {
             <h3 className="text-2xl font-extrabold underline decoration-wavy underline-offset-2"> Activity</h3>
 
             <ActivityList toShow={-3} />
-            
+
 
           </div>
           <div className="z-10 p-5 pb-10 md:m-3 h-fit dark:bg-black dark:border-white/[0.2] bg-white border border-black/[0.2] rounded-lg">
