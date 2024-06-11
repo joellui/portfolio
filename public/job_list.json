@@ -1,6 +1,23 @@
 [
     {
         "id": 1,
+        "Company_name": "Trustle",
+        "Company_logo": "/Company_logo/trustle.png",
+        "Company_location": "Vadodara, India",
+        "Company_website": "",
+        "Company_description": [
+            "Designed and developed backend architecture and APIs which enhanced system performance and reliability.",
+            "Integrated Nginx for efficient load balancing, successfully managing increased traffic volumes during peak events.",
+            "Worked on Configuring Zookeeper,kafka and logstash cluster for data ingestion and Elasticsearch performance.",
+            "Developed and maintained ETL tools, increasing data processing efficiency by 20%, reducing latency, and facilitating comprehensive business intelligence and reporting solutions."
+        ],
+        "Job_title": "Software Developer",
+        "Job_type": "Full-time",
+        "Job_Start_date": "2022, Nov",
+        "Job_End_date": "2022, Jul"
+    },
+    {
+        "id": 2,
         "Company_name": "Carelon",
         "Company_logo": "/Company_logo/carelon.svg",
         "Company_location": "Bangalore, India",
@@ -18,7 +35,7 @@
         "Job_End_date": "2022, Nov"
     },
     {
-        "id": 2,
+        "id": 3,
         "Company_name": "Tata Communications",
         "Company_logo": "/Company_logo/tataCommunication.svg",
         "Company_location": "Mumbai, India",
@@ -34,7 +51,7 @@
 
     },
     {
-        "id": 3,
+        "id": 4,
         "Company_name": "Prodevans Technologies",
         "Company_logo": "/Company_logo/prodevans.svg",
         "Company_location": "Bangalore, India",

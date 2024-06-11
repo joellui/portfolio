@@ -54,7 +54,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center justify-center">
-            <BackgroundGradient className="rounded-[22px] max-w-sm bg-white dark:bg-zinc-900">
+            <BackgroundGradient className="rounded-[22px] max-w-sm bg-white dark:bg-zinc-900 ">
               <Image alt="My Photo" src="/me.jpeg" width={350} height={450} className="rounded-[22px]" />
             </BackgroundGradient>
           </div>
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="md:m-3 ">
             <h3 className="text-2xl font-extrabold underline decoration-wavy underline-offset-2"> Activity</h3>
 
-            <ActivityList toShow={-3} />
+            <ActivityList toShow={-5} />
 
 
           </div>
