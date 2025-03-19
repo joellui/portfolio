@@ -1,6 +1,14 @@
 [
     {
         "id": 10,
+        "Organisation": "Project Management Institute",
+        "Artical_title": "Certified Associate in Project Management (CAPM)",
+        "Artical_link": "https://www.credly.com/badges/fa6b4b1a-67c7-4d23-8fd1-fbe13b08d244/linked_in_profile",
+        "Artical_Summary": "Achieved the Certified Associate in Project Management (CAPM) certification from the Project Management Institute. This certification demonstrates my understanding of project management principles and practices, enhancing my ability to contribute effectively to project teams.",
+        "date_published": "2025, Mar"
+    },
+    {
+        "id": 10,
         "Organisation": "Arizona State University || Adidas",
         "Artical_title": "Research Assistant",
         "Artical_link": null,
