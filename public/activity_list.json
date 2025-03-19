@@ -1,5 +1,37 @@
 [
     {
+        "id": 10,
+        "Organisation": "Arizona State University || Adidas",
+        "Artical_title": "Research Assistant",
+        "Artical_link": null,
+        "Artical_Summary": "Worked with Adidas through Arizona State University as a Research Assistant. Conducted advanced data analytics on high-volume sales data, covering over 40,000 postal codes across the U.S., using demographic and mall traffic datasets to map consumer trends and identify high-performing zones.",
+        "date_published": "2024, May"
+    },
+    {
+        "id": 9,
+        "Organisation": "@Me",
+        "Artical_title": "Portfolio",
+        "Artical_link": "/",
+        "Artical_Summary": "Started Making my portfolio using React.js and Next.js. Deployed it on Vercel. This portfolio showcases my projects, skills, and experiences in software development, providing a comprehensive overview of my professional journey.",
+        "date_published": "2024, Jan"
+    },
+    {
+        "id": 8,
+        "Organisation": "Arizona State University",
+        "Artical_title": "Homorphic Encryption for Secure Data Sharing",
+        "Artical_link": "https://github.com/joellui/Homomorphic-Encryption---SEAL",
+        "Artical_Summary": "Worked using Microsoft SEAL to implement homomorphic encryption for secure data sharing. This project focused on enhancing data privacy and security in cloud computing environments, allowing computations on encrypted data without decryption.",
+        "date_published": "2023, Nov"
+    },
+    {
+        "id": 8,
+        "Organisation": "Starbucks",
+        "Artical_title": "Barista",
+        "Artical_link": null,
+        "Artical_Summary": "Worked as a Barista at Starbucks, where I honed my customer service skills and learned the importance of teamwork in a fast-paced environment. This role taught me how to manage time effectively while ensuring high-quality service.",
+        "date_published": "2023, Oct"
+    },
+    {
         "id": 7,
         "Organisation": "Trustle",
         "Artical_title": "Software Developer for End-to-End Product",
@@ -19,7 +51,7 @@
         "id": 5,
         "Organisation": "Kitsu",
         "Artical_title": "Open Source Developer for Kitsu Streaming App",
-        "Artical_link": null,
+        "Artical_link": "https://github.com/ryuu-blue/Ryu",
         "Artical_Summary": "Led the development of Kitsu, an open-source streaming application for anime. This project involved using Kotlin to build a robust, scalable app that supports streaming and community interaction.",
         "date_published": "2021, Nov"
     },
@@ -35,7 +67,7 @@
         "id": 3,
         "Organisation": "Android App Store",
         "Artical_title": "Game Development with C# and Unity",
-        "Artical_link": null,
+        "Artical_link": "https://github.com/joellui/Dodge",
         "Artical_Summary": "Developed multiple games using C# and Unity, later published on the Android App Store. These projects allowed me to explore game mechanics, graphics, and user interaction in a mobile environment.",
         "date_published": "2021, May"
     },

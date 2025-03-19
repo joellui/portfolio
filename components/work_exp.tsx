@@ -26,7 +26,7 @@ export default function WorkExp() {
             {data.map((job: Job, i: number) => (
                 <div className="grid grid-cols-9 gap-3 mt-7" key={i}>
                     <div className=" col-span-2 row-span-3">
-                        <Image src={job.Company_logo} width={100} height={100} alt={job.Company_name + "_logo"} className=" scale-150 md:m-3 md:p-1 md:scale-125" />
+                        <Image src={job.Company_logo} width={100} height={100} alt={job.Company_name + "_logo"} objectFit="cover" style={{borderRadius: '10px'}} className="scale-150 md:m-3 md:p-1 md:scale-125" />
                     </div>
                     <div className="col-span-7 grid gap-2 grid-cols-2">
                         <Link href={job.Company_website} className="mx-3 hover:underline">{job.Company_name}</Link>

@@ -66,7 +66,9 @@ export default function Home() {
           <div className="md:m-3 ">
             <h3 className="text-2xl font-extrabold underline decoration-wavy underline-offset-2"> Activity</h3>
 
-            <ActivityList toShow={-5} />
+            <ActivityList 
+              // toShow={-10} 
+            />
 
 
           </div>

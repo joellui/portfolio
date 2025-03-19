@@ -1,6 +1,24 @@
 [
     {
-        "id": 1,
+        "id": 5,
+        "Company_name": "Adidas (Actionable Analytics Lab)",
+        "Company_logo": "/Company_logo/adidas_logo.jpg",
+        "Company_location": "Tempe, Arizona, USA",
+        "Company_website": "https://analytics.wpcarey.asu.edu/",
+        "Company_description": [
+            "Worked through ASU for adidas",
+            "Conducted advanced data analytics on high-volume sales data, covering over 40,000 postal codes across the U.S., using demographic and mall traffic datasets to map consumer trends and identify high-performing zones.",
+            "Engineered Score Cards nationwide for product segments, optimizing product placement and sales strategies across eight distinct segments at individual store levels.",
+            "Applied K-means clustering and hierarchical clustering algorithms to develop five unique store clusters based on 30 multi-dimensional features, enhancing Adidas’s market segmentation approach.",
+            "Designed interactive Power BI dashboards for real-time data insights, allowing cross-functional teams to strategize based on data-driven insights and facilitate scalable decision-making"
+        ],
+        "Job_title": "Research Assistant: Data Analytics",
+        "Job_type": "Full-time",
+        "Job_Start_date": "2024, May",
+        "Job_End_date": "Present"
+    },
+    {
+        "id": 4,
         "Company_name": "Trustle",
         "Company_logo": "/Company_logo/trustle.png",
         "Company_location": "Vadodara, India",
@@ -17,7 +35,7 @@
         "Job_End_date": "2022, Jul"
     },
     {
-        "id": 2,
+        "id": 3,
         "Company_name": "Carelon",
         "Company_logo": "/Company_logo/carelon.svg",
         "Company_location": "Bangalore, India",
@@ -35,7 +53,7 @@
         "Job_End_date": "2022, Nov"
     },
     {
-        "id": 3,
+        "id": 2,
         "Company_name": "Tata Communications",
         "Company_logo": "/Company_logo/tataCommunication.svg",
         "Company_location": "Mumbai, India",
@@ -51,7 +69,7 @@
 
     },
     {
-        "id": 4,
+        "id": 1,
         "Company_name": "Prodevans Technologies",
         "Company_logo": "/Company_logo/prodevans.svg",
         "Company_location": "Bangalore, India",
